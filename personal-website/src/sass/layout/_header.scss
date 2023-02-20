@@ -1,0 +1,45 @@
+.header {
+  font-family: "Urbanist", sans-serif;
+
+  font-size: 2.6rem;
+  font-weight: 600;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+  &__logo {
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+  &__left {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    a {
+      margin: 0 2rem;
+      color: black;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+    height: 100%;
+    color: black;
+  }
+}

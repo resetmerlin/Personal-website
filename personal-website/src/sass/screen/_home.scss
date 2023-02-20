@@ -1,0 +1,15 @@
+.HomeScreen {
+  &__3d__wrap {
+    width: 69rem;
+    height: 59rem;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    font-size: 17rem;
+    font-family: "Hammersmith One", sans-serif;
+  }
+}
