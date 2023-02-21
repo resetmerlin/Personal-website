@@ -3,11 +3,11 @@ import React from "react";
 const Lights = () => {
   return (
     <>
-      <fog attach="fog" args={["white", 0, 50]} />
-      <ambientLight intensity={0.8} />
+      <fog attach="fog" args={["black", 0, 30]} />
+      <ambientLight intensity={1} />
       <directionalLight
-        position={[0, 10, 0]}
-        intensity={0.3}
+        position={[-0.5, 1, 0]}
+        intensity={4}
         shadow-mapSize-width={1024}
         shadow-mapSize-height={1024}
         shadow-camera-far={50}

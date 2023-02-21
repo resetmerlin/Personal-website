@@ -1,15 +1,37 @@
 .HomeScreen {
+  position: relative;
+
+  &__half--left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5rem;
+  }
+
+  &__half--right {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%;
+    top: 0;
+  }
   &__3d__wrap {
     width: 69rem;
     height: 59rem;
     position: absolute;
-    top: 38%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   &__title {
-    font-size: 17rem;
-    font-family: "Hammersmith One", sans-serif;
+    font-size: 12rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
   }
 }

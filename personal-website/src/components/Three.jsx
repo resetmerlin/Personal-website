@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { useLoader, Canvas, useFrame } from "@react-three/fiber";
-import { Model } from "./model/Computer3d";
+import { Model } from "./model/Laptop3d";
 import Floor from "./3d-Handler/Floor";
 import { softShadows, Loader, OrbitControls } from "@react-three/drei";
 
