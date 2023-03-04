@@ -21,7 +21,7 @@ export function Model(props) {
         {...props}
         dispose={null}
         scale={11}
-        rotation={[0.5, -1.3, 0.4]}
+        rotation={[0.9, -1.4, 0.9]}
         position={[-1, 0, 0.7]}
       >
         <group rotation={[0.03, 0, 0]}>
